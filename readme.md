@@ -50,11 +50,13 @@ Smooth user experience (UX)
 </pre>
 
 ## 🛠️ Technologies Used
+<pre>
 HTML5
 CSS3 (Flexbox + Grid)
 JavaScript (Vanilla JS)
 Responsive Design Principles
 Mobile First Approach
+</pre>
 
 ## 📂 Project Structure
 
