@@ -1,9 +1,9 @@
-🌭 HotDog House Website
+## 🌭 HotDog House Website
 
 A modern, responsive and visually appealing fast food landing page built using HTML, CSS, and JavaScript.
 This project is designed to showcase a hotdog restaurant menu and simulate a simple food ordering experience with a clean UI.
 
-👨‍💻 About Developer
+## 👨‍💻 About Developer
 
 <pre>
 Iqbolshoh Ilhomjonov
@@ -15,7 +15,7 @@ Iqbolshoh Ilhomjonov
 
 </pre>
 
-🖼️ Project Preview
+## 🖼️ Project Preview
 
 Add screenshots inside /images folder
 
@@ -27,7 +27,7 @@ Add screenshots inside /images folder
 
 🎯 Project Purpose
 
-This project was built to practice modern restaurant/fast food landing page design with focus on:
+## This project was built to practice modern restaurant/fast food landing page design with focus on:
 
 <pre>
 Clean and appetizing UI design
@@ -49,14 +49,14 @@ Smooth user experience (UX)
 📞 Contact Section
 </pre>
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 HTML5
 CSS3 (Flexbox + Grid)
 JavaScript (Vanilla JS)
 Responsive Design Principles
 Mobile First Approach
 
-📂 Project Structure
+## 📂 Project Structure
 
 <pre>
 hotdog-website/
