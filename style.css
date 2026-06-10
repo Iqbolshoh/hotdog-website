@@ -164,8 +164,50 @@ button {
 
 
 /* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
+.footer {
   background: #0b1220;
+  color: white;
+  padding: 60px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 30px;
+}
+
+.footer-box {
+  width: 250px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+  color: #fbbf24;
+}
+
+.footer-box a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.footer-box a:hover {
+  color: #fbbf24;
+  transform: translateX(5px);
+}
+
+.social a {
+  margin-right: 10px;
+  color: #38bdf8;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  color: #9ca3af;
 }
