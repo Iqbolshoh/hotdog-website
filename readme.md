@@ -5,12 +5,15 @@ This project is designed to showcase a hotdog restaurant menu and simulate a sim
 
 👨‍💻 About Developer
 
+<pre>
 Iqbolshoh Ilhomjonov
 🚀 Full-Stack Web Developer
 📍 Samarkand, Uzbekistan 🇺🇿
 💼 Freelancer | Frontend Developer
 🌐 Portfolio: https://iqbolshoh.uz
 📧 Email: iilhomjonov777@gmail.com
+
+</pre>
 
 🖼️ Project Preview
 
@@ -26,12 +29,15 @@ Add screenshots inside /images folder
 
 This project was built to practice modern restaurant/fast food landing page design with focus on:
 
+<pre>
 Clean and appetizing UI design
 Responsive layout for all devices
 Simple order simulation system
 Real-world restaurant landing structure
 Smooth user experience (UX)
+</pre>
 
+<pre>
 ✨ Features
 🌭 Modern Restaurant Landing Page Design
 🍔 Food Menu Showcase Section
@@ -41,6 +47,7 @@ Smooth user experience (UX)
 🧾 Simple Order Form
 ✨ Hover Animations
 📞 Contact Section
+</pre>
 
 🛠️ Technologies Used
 HTML5
@@ -51,6 +58,7 @@ Mobile First Approach
 
 📂 Project Structure
 
+<pre>
 hotdog-website/
 │
 ├── images/
@@ -62,7 +70,9 @@ hotdog-website/
 ├── style.css
 ├── script.js
 └── README.md
+</pre>
 
+<pre>
 🚀 Future Improvements
 🛒 Shopping Cart System
 💳 Online Payment Integration UI
@@ -70,6 +80,7 @@ hotdog-website/
 📱 PWA (Mobile App Version)
 🗄️ Backend Integration (Node.js + Database)
 🌍 Multi-language Support
+</pre>
 
 ## ⭐ Support
 
