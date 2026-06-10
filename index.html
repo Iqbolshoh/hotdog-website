@@ -1,30 +1,85 @@
 <!DOCTYPE html>
 <html lang="uz">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HotDog House</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<!-- NAV -->
+<header class="nav">
   <h1>🌭 HotDog House</h1>
   <nav>
-    <a href="index.html">Bosh sahifa</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Aloqa</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">Biz haqimizda</a>
+    <a href="#contact">Aloqa</a>
   </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-  <h2>Eng mazali hotdoglar bizda!</h2>
-  <p>Tez, mazali va arzon fast food</p>
-  <button onclick="orderNow()">Buyurtma berish</button>
+  <div class="hero-text">
+    <h2>🔥 Eng mazali hotdoglar faqat bizda!</h2>
+    <p>Issiq, shirali, cheese bilan to‘ldirilgan haqiqiy fast food lazzati</p>
+    <button onclick="order()">🚀 Buyurtma berish</button>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu">
+  <h2>🍔 Menu</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086" />
+      <h3>Classik Hotdog</h3>
+      <p>15 000 so‘m</p>
+      <button>Buyurtma</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1613145997970-db84a7975fbb" />
+      <h3>Cheese Hotdog</h3>
+      <p>20 000 so‘m</p>
+      <button>Buyurtma</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" />
+      <h3>Spicy Hotdog</h3>
+      <p>18 000 so‘m</p>
+      <button>Buyurtma</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>👨‍🍳 Biz haqimizda</h2>
+  <p>
+    Biz 2026 yildan beri eng mazali fast food tayyorlaymiz.
+    Har bir hotdog yangi ingredientlardan tayyorlanadi.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>📞 Aloqa</h2>
+
+  <form onsubmit="return send()">
+    <input type="text" placeholder="Ismingiz" required>
+    <input type="tel" placeholder="Telefon" required>
+    <textarea placeholder="Buyurtma..." required></textarea>
+    <button type="submit">Yuborish</button>
+  </form>
 </section>
 
 <footer>
-  <p>© 2026 HotDog House</p>
+  <p>© 2026 HotDog House | Made with ❤️</p>
 </footer>
 
 <script src="script.js"></script>

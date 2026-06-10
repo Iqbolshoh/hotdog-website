@@ -1,8 +1,8 @@
-function orderNow() {
-  alert("Buyurtma qabul qilindi 🌭🔥");
+function order() {
+  alert("🔥 Buyurtma qabul qilindi! Tez orada tayyor bo‘ladi 🌭");
 }
 
-function sendOrder() {
-  alert("Buyurtmangiz yuborildi! Tez orada aloqaga chiqamiz 📞");
+function send() {
+  alert("📞 Xabaringiz yuborildi!");
   return false;
 }
